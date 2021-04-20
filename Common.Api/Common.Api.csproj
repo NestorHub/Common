@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <Version>1.0.1</Version>
+    <Description>Librairie commune pour le Nestor Hub et l'Api Nestor Hub Sentinels</Description>
+    <Copyright>Kopigi 2021</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageId>NestorHub.Common.Api</PackageId>
+    <Authors>Kopigi</Authors>
+    <Company>Kopigi</Company>
+    <Product>NestorHub.Common.Api</Product>
+    <AssemblyName>NestorHub.Common.Api</AssemblyName>
+    <RootNamespace>NestorHub.Common.Api</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="Value" Version="1.1.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>C:\Program Files\dotnet\sdk\NuGetFallbackFolder\newtonsoft.json\11.0.2\lib\netstandard2.0\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
